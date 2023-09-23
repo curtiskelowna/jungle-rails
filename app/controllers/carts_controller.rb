@@ -1,6 +1,13 @@
 class CartsController < ApplicationController
 
   def show
+    if cart.empty?
+      @message = "Your cart is empty. Please continue shopping."
+    else
+      @cart = cart
+      @products = Product.find(cart.keys)
+      @total = @products.sum(&:price)
+    end
   end
 
   def add_item
