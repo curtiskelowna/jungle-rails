@@ -1,0 +1,35 @@
+<section class="admin-categories-index">
+
+  <header class="page-header">
+    <h1>Admin &raquo; All Categories</h1>
+  </header>
+
+  <div class="well">
+    <%= link_to '+ New Categories', [:new, :admin, :category], class: 'btn btn-info' %>
+  </div>
+<br>
+  <div class="panel panel-default categories">
+
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th colspan="2">Category</th>
+          <th>Created At</th>
+          <th>Updated At</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+<% @categories.each do |category| %>
+  <tr>
+    <td><%= category.name %></td>
+    <td><%= category.created_at %></td>
+    <td><%= category.updated_at %></td>
+  </tr>
+<% end %>
+</tbody>
+    </table>
+
+  </div>
+
+</section>
