@@ -31,3 +31,10 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Stripe
 
 ## Screenshots
+
+!['Home Page'](https://github.com/curtiskelowna/jungle-rails/blob/master/docs/home-page.png?raw=true)
+!['Home Page Products'](https://github.com/curtiskelowna/jungle-rails/blob/master/docs/home-page-products.png?raw=true)
+!['Producte Details'](https://github.com/curtiskelowna/jungle-rails/blob/master/docs/product-detail.png?raw=true)
+!['Cart'](https://github.com/curtiskelowna/jungle-rails/blob/master/docs/cart.png?raw=true)
+!['Order Summary'](https://github.com/curtiskelowna/jungle-rails/blob/master/docs/order-summary.png?raw=true)
+!['Admin page - All Categories'](https://github.com/curtiskelowna/jungle-rails/blob/master/docs/admin-categories.png?raw=true)
